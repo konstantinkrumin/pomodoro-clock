@@ -1,0 +1,21 @@
+@import 'variables';
+
+/* MEDIA QUERIES (LANDSCAPE) */
+@media (orientation: landscape) and (max-width: 750px) {
+  #title, 
+  #start-stop-buttons-container, 
+  #break-length-block, 
+  #session-length-block { margin-bottom: 1rem; }
+  
+  #block-container { max-height: 100vh; }
+  
+  #running-time-section { padding: 0.5rem 2rem; }
+  
+  #break-length-block, #session-length-block, .btn {
+    font-size: $mid-font-size-sm-screens-landscape;
+  }
+  
+  #time-left {
+    font-size: $large-font-size-sm-screens-landscape;
+  }
+}

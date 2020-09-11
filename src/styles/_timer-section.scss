@@ -1,0 +1,17 @@
+@import 'variables';
+
+/* TIMER SECTION */
+#running-time-section {
+  width: 200px;
+  text-align: center;
+  padding: 1.5rem 3rem;
+  border: 5px solid $accent-color;
+  border-radius: 50px;
+}
+
+#time-left { font-size: $large-font-size; }
+
+#start-stop-buttons-container {
+  text-align: center;
+  margin: 2rem;
+}

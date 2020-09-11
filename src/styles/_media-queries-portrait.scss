@@ -1,0 +1,23 @@
+@import 'variables';
+
+/* MEDIA QUERIES (PORTRAIT) */
+@media (max-width: 750px) {
+  #main-window {
+    font-size: $st-font-size-sm-screens;
+  }
+  
+  #block-container {
+    width: 95%;
+    grid-template-columns: repeat(2, 22%) 1fr repeat(2, 25%);
+  }
+  
+  #running-time-section {
+    width: 150px;
+  }
+  
+  #break-length-block, #session-length-block, .btn {
+    font-size: $mid-font-size-sm-screens;
+  }
+  
+  #time-left { font-size: $large-font-size-sm-screens; }
+}

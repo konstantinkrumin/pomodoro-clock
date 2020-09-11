@@ -1,0 +1,18 @@
+@import 'variables';
+
+/* BUTTONS */
+.btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: $dark-gray;
+  color: $light-gray;
+  font-size: $mid-font-size;
+  transition: color 250ms;
+  
+  &:hover, &:focus {
+    color: $accent-color;
+  }
+}
+
+.btn-arrows { margin: auto 0.5rem; }

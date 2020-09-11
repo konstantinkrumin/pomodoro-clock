@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap');
+@import 'variables';
+@import 'buttons';
+@import 'clock-container';
+@import 'setup-section';
+@import 'timer-section';
+@import 'media-queries-portrait';
+@import 'media-queries-landscape';
+
+/* MAIN */
+* { margin: 0; }
+
+#main-window {
+  background: $dark-gray;
+  color: $light-gray;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: $main-font;
+  font-size: $standard-font-size;
+  letter-spacing: 1px;
+}

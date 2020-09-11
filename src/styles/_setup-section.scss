@@ -1,0 +1,14 @@
+@import 'variables';
+
+/* SETUP SECTION */
+#break-label, #session-label { 
+  text-align: center; 
+  margin-bottom: 0.25rem; 
+}
+
+#break-length-block, #session-length-block {
+  display: flex;
+  justify-content: center;
+  font-size: $mid-font-size;
+  margin-bottom: 1.5rem;
+}

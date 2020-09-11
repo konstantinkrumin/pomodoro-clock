@@ -1,0 +1,29 @@
+@import 'variables';
+
+/* CLOCK CONTAINER */
+#block-container {
+  width: 85%;
+  max-width: 600px;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 23%) 1fr repeat(2, 23%);
+  grid-template-areas: 
+    "header header header header header"
+    "break-setup break-setup . session-setup session-setup"
+    "timer timer timer timer timer";
+}
+
+#title, 
+#timer-container { margin: 0 auto; }
+
+#title {
+  grid-area: header;
+  margin-bottom: 2rem;
+  color: $accent-color;
+}
+
+#break-setup-container { grid-area: break-setup; }
+
+#session-setup-container { grid-area: session-setup; }
+
+#timer-container { grid-area: timer; }
